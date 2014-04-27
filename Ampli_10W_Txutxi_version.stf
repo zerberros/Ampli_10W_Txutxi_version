@@ -1,0 +1,3 @@
+comp = "IC1" module = "Pentawatt"
+comp = "U1" module = "Pentawatt"
+comp = "U2" module = "Pentawatt"

@@ -1,0 +1,455 @@
+PCBNEW-BOARD Version 2 date sáb 26 abr 2014 00:31:55 CEST
+
+# Created by Pcbnew(2014-03-09 BZR 4740)-product
+
+$GENERAL
+encoding utf-8
+Units mm
+LayerCount 2
+EnabledLayers 1FFF8001
+Links 11
+NoConn 11
+Di 123.574857 66.548 182.753001 123.81
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 1.6002
+Nmodule 8
+Nnets 9
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11693 8268
+Title ""
+Date "3 nov 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 0.2032
+TrackClearence 0.254
+ZoneClearence 0.508
+Zone_45_Only 0
+TrackMinWidth 0.2032
+DrawSegmWidth 0.381
+EdgeSegmWidth 0.381
+ViaSize 0.889
+ViaDrill 0.635
+ViaMinSize 0.889
+ViaMinDrill 0.508
+MicroViaSize 0.508
+MicroViaDrill 0.127
+MicroViasAllowed 0
+MicroViaMinSize 0.508
+MicroViaMinDrill 0.127
+TextPcbWidth 0.3048
+TextPcbSize 1.524 2.032
+EdgeModWidth 0.381
+TextModSize 1.524 1.524
+TextModWidth 0.3048
+PadSize 1.524 1.524
+PadDrill 0.8128
+Pad2MaskClearance 0.254
+SolderMaskMinWidth 0
+GridOrigin 0 0
+AuxiliaryAxisOrg 0 0
+VisibleElements FFFFFF7F
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "+9V"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "GND"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "Net-(Audio_In1-Pad1)"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "Net-(C1-Pad1)"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 5 "Net-(C2-Pad1)"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 6 "Net-(C2-Pad2)"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 7 "Net-(C3-Pad1)"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 8 "Net-(C3-Pad2)"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 0.254
+TrackWidth 0.2032
+ViaDia 0.889
+ViaDrill 0.635
+uViaDia 0.508
+uViaDrill 0.127
+AddNet ""
+AddNet "+9V"
+AddNet "GND"
+AddNet "Net-(Audio_In1-Pad1)"
+AddNet "Net-(C1-Pad1)"
+AddNet "Net-(C2-Pad1)"
+AddNet "Net-(C2-Pad2)"
+AddNet "Net-(C3-Pad1)"
+AddNet "Net-(C3-Pad2)"
+$EndNCLASS
+$MODULE PINHEAD1-2
+Po 126.746 107.95 0 15 535AE1DB 535AE1FB ~~
+Li PINHEAD1-2
+Sc 535AE1FB
+AR /535ACB15
+Op 0 0 0
+At VIRTUAL
+T0 0 -3.9 0.8 0.8 0 0.12 N V 21 N "Audio_In1"
+T1 0 3.81 0.8 0.8 0 0.12 N V 21 N "CONN_2"
+DS 2.54 -1.27 -2.54 -1.27 0.254 21
+DS 2.54 3.175 -2.54 3.175 0.254 21
+DS -2.54 -3.175 2.54 -3.175 0.254 21
+DS -2.54 -3.175 -2.54 3.175 0.254 21
+DS 2.54 -3.175 2.54 3.175 0.254 21
+$PAD
+Sh "1" O 1.50622 3.01498 0 0 0
+Dr 0.99822 0 0
+At STD N 00E0FFFF
+Ne 3 "Net-(Audio_In1-Pad1)"
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" O 1.50622 3.01498 0 0 0
+Dr 0.99822 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po 1.27 0
+$EndPAD
+$EndMODULE PINHEAD1-2
+$MODULE CP_5x11mm
+Po 129.54 82.042 0 15 535AE1DC 535AE207 ~~
+Li CP_5x11mm
+Cd Capacitor, pol, cyl 5x11mm
+Sc 535AE207
+AR /535AC7D3
+Op 0 0 0
+T0 0 -3.81 1.524 1.524 0 0.3048 N V 21 N "C1"
+T1 0 3.81 1.524 1.524 0 0.3048 N V 21 N "10uF"
+DS 0.889 -1.27 1.778 -1.27 0.254 21
+DS 1.016 -2.286 -1.016 -2.286 0.254 21
+DS -1.016 -2.286 -1.016 -2.159 0.254 21
+DS -1.016 -2.159 1.016 -2.159 0.254 21
+DS -1.524 -2.032 1.524 -2.032 0.254 21
+DC 0 0 -2.54 0 0.254 21
+$PAD
+Sh "1" R 1.99898 1.99898 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 4 "Net-(C1-Pad1)"
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.99898 1.99898 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 3 "Net-(Audio_In1-Pad1)"
+Po 0 -1.27
+$EndPAD
+$SHAPE3D
+Na "discret/Capacitor/cp_5x11mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE CP_5x11mm
+$MODULE CP_8x21mm
+Po 170.18 73.406 0 15 535AE1DC 535AE216 ~~
+Li CP_8x21mm
+Cd Capacitor, pol, cyl 8x21mm
+Sc 535AE216
+AR /535AC8DD
+Op 0 0 0
+T0 0 -5.08 1.524 1.524 0 0.3048 N V 21 N "C2"
+T1 0 5.08 1.524 1.524 0 0.3048 N V 21 N "470uF"
+DS 2.032 -3.429 -2.032 -3.429 0.254 21
+DS -2.032 -3.429 -1.651 -3.556 0.254 21
+DS -1.651 -3.556 1.651 -3.556 0.254 21
+DS 1.651 -3.556 2.032 -3.429 0.254 21
+DC 0 0 -4.064 0.127 0.254 21
+DS 0.889 -2.921 1.778 -2.921 0.254 21
+DS 1.016 -3.937 -1.016 -3.937 0.254 21
+DS -1.016 -3.81 1.016 -3.81 0.254 21
+DS -1.524 -3.683 1.524 -3.683 0.254 21
+$PAD
+Sh "1" R 1.99898 1.99898 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 5 "Net-(C2-Pad1)"
+Po 0 1.905
+$EndPAD
+$PAD
+Sh "2" C 1.99898 1.99898 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 6 "Net-(C2-Pad2)"
+Po 0 -1.905
+$EndPAD
+$SHAPE3D
+Na "discret/Capacitor/cp_8x21mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE CP_8x21mm
+$MODULE CP_13x21mm
+Po 175.768 100.33 0 15 535AE1DC 535AE22A ~~
+Li CP_13x21mm
+Cd Capacitor, pol, cyl 13x21mm
+Sc 535AE22A
+AR /535ACA21
+Op 0 0 0
+T0 -1.27 -8.89 1.524 1.524 0 0.3048 N V 21 N "C3"
+T1 0 8.89 1.524 1.524 0 0.3048 N V 21 N "1000uF"
+DS -2.032 -5.969 2.032 -5.969 0.254 21
+DS 2.921 -5.715 -2.794 -5.715 0.254 21
+DS -2.794 -5.715 -1.905 -5.715 0.254 21
+DS 1.397 -6.35 -1.27 -6.35 0.254 21
+DS -2.159 -6.096 2.159 -6.096 0.254 21
+DS 2.794 -5.842 -2.794 -5.842 0.254 21
+DS -2.794 -5.842 -2.667 -5.842 0.254 21
+DS 3.556 -5.588 -3.556 -5.588 0.254 21
+DS -3.556 -5.588 -0.889 -6.477 0.254 21
+DS -0.889 -6.477 0.889 -6.477 0.254 21
+DS 0.889 -6.477 3.429 -5.588 0.254 21
+DS 3.429 -5.588 3.048 -5.715 0.254 21
+DC 0 0 -6.604 0 0.254 21
+DS 1.397 -4.953 2.286 -4.953 0.254 21
+$PAD
+Sh "1" R 1.99898 1.99898 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 7 "Net-(C3-Pad1)"
+Po 0.0254 2.54
+$EndPAD
+$PAD
+Sh "2" C 1.99898 1.99898 0 0 0
+Dr 0.8001 0 0
+At STD N 00E0FFFF
+Ne 8 "Net-(C3-Pad2)"
+Po 0 -2.54
+$EndPAD
+$SHAPE3D
+Na "discret/Capacitor/cp_13x21mm.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE CP_13x21mm
+$MODULE PINHEAD1-2
+Po 175.26 119.126 0 15 535AE1DB 535AE235 ~~
+Li PINHEAD1-2
+Sc 535AE235
+AR /535ACAC6
+Op 0 0 0
+At VIRTUAL
+T0 0 -3.9 0.8 0.8 0 0.12 N V 21 N "Carga1"
+T1 0 3.81 0.8 0.8 0 0.12 N V 21 N "CONN_2"
+DS 2.54 -1.27 -2.54 -1.27 0.254 21
+DS 2.54 3.175 -2.54 3.175 0.254 21
+DS -2.54 -3.175 2.54 -3.175 0.254 21
+DS -2.54 -3.175 -2.54 3.175 0.254 21
+DS 2.54 -3.175 2.54 3.175 0.254 21
+$PAD
+Sh "1" O 1.50622 3.01498 0 0 0
+Dr 0.99822 0 0
+At STD N 00E0FFFF
+Ne 8 "Net-(C3-Pad2)"
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "2" O 1.50622 3.01498 0 0 0
+Dr 0.99822 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po 1.27 0
+$EndPAD
+$EndMODULE PINHEAD1-2
+$MODULE R4
+Po 148.844 71.12 0 15 535AE1DA 535AE243 ~~
+Li R4
+Cd Resitance 4 pas
+Kw R
+Sc 535AE243
+AR /535AC93B
+Op 0 A 0
+T0 0 0 1.397 1.27 0 0.2032 N V 21 N "R1"
+T1 0 0 1.397 1.27 0 0.2032 N I 21 N "220"
+DS -5.08 0 -4.064 0 0.3048 21
+DS -4.064 0 -4.064 -1.016 0.3048 21
+DS -4.064 -1.016 4.064 -1.016 0.3048 21
+DS 4.064 -1.016 4.064 1.016 0.3048 21
+DS 4.064 1.016 -4.064 1.016 0.3048 21
+DS -4.064 1.016 -4.064 0 0.3048 21
+DS -4.064 -0.508 -3.556 -1.016 0.3048 21
+DS 5.08 0 4.064 0 0.3048 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 6 "Net-(C2-Pad2)"
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 7 "Net-(C3-Pad1)"
+Po 5.08 0
+$EndPAD
+$SHAPE3D
+Na "discret/resistor.wrl"
+Sc 0.4 0.4 0.4
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE R4
+$MODULE R4
+Po 148.5011 105.0036 0 15 535AE1DA 535AE251 ~~
+Li R4
+Cd Resitance 4 pas
+Kw R
+Sc 535AE251
+AR /535AC980
+Op 0 A 0
+T0 0 0 1.397 1.27 0 0.2032 N V 21 N "R2"
+T1 0 0 1.397 1.27 0 0.2032 N I 21 N "2.2"
+DS -5.08 0 -4.064 0 0.3048 21
+DS -4.064 0 -4.064 -1.016 0.3048 21
+DS -4.064 -1.016 4.064 -1.016 0.3048 21
+DS 4.064 -1.016 4.064 1.016 0.3048 21
+DS 4.064 1.016 -4.064 1.016 0.3048 21
+DS -4.064 1.016 -4.064 0 0.3048 21
+DS -4.064 -0.508 -3.556 -1.016 0.3048 21
+DS 5.08 0 4.064 0 0.3048 21
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 6 "Net-(C2-Pad2)"
+Po -5.08 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po 5.08 0
+$EndPAD
+$SHAPE3D
+Na "discret/resistor.wrl"
+Sc 0.4 0.4 0.4
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE R4
+$MODULE Pentawatt_Neutral_Staggered-Typ1_Horizontal_TO220-5-TA05B
+Po 149.352 96.012 0 15 535AE1D9 535AE269 ~~
+Li Pentawatt_Neutral_Staggered-Typ1_Horizontal_TO220-5-TA05B
+Cd Pentawatt, Neutral, Staggered Typ 1, Horizontal, TO220-5, TA05B,
+Kw Pentawatt, Neutral, Staggered Typ 1, Horizontal, TO220-5, TA05B,
+Sc 535AE269
+AR /535AC30F
+Op 0 0 0
+T0 0.254 -9.144 1.524 1.524 0 0.3048 N V 21 N "U1"
+T1 2.54 5.08 1.524 1.524 0 0.3048 N V 21 N "TDA2003V"
+T2 -5.588 -0.762 1.524 1.524 0 0.3048 N V 21 N "1"
+DS 0 -4.572 0 -0.508 0.381 21
+DS -3.556 -4.826 -3.556 -0.508 0.381 21
+DS 3.556 -4.826 3.556 -0.762 0.381 21
+DS 1.778 -4.572 1.778 -4.064 0.381 21
+DS -1.778 -4.572 -1.778 -4.064 0.381 21
+DS -5.30098 -4.699 -5.30098 -12.30122 0.381 21
+DS 5.30098 -12.19962 5.30098 -4.699 0.381 21
+DS -5.30098 -4.699 5.30098 -4.699 0.381 21
+DC 0 -16.764 1.778 -14.986 0.381 21
+DS 5.334 -12.192 5.334 -20.193 0.381 21
+DS 5.334 -20.193 -5.334 -20.193 0.381 21
+DS -5.334 -20.193 -5.334 -12.192 0.381 21
+DS 5.334 -12.192 -5.334 -12.192 0.381 21
+$PAD
+Sh "3" O 2.49936 1.80086 0 0 900
+Dr 1.19888 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po 0 1.39954
+$EndPAD
+$PAD
+Sh "1" O 2.49936 1.80086 0 0 900
+Dr 1.19888 0 0
+At STD N 00E0FFFF
+Ne 4 "Net-(C1-Pad1)"
+Po -3.40106 1.39954
+$EndPAD
+$PAD
+Sh "5" O 2.49936 1.80086 0 0 900
+Dr 1.19888 0 0
+At STD N 00E0FFFF
+Ne 1 "+9V"
+Po 3.40106 1.39954
+$EndPAD
+$PAD
+Sh "" C 3.79984 3.79984 0 0 900
+Dr 3.79984 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 -16.764
+$EndPAD
+$PAD
+Sh "2" O 2.49936 1.80086 0 0 900
+Dr 1.19888 0 0
+At STD N 00E0FFFF
+Ne 5 "Net-(C2-Pad1)"
+Po -1.69926 -2.10058
+$EndPAD
+$PAD
+Sh "4" O 2.49936 1.80086 0 0 900
+Dr 1.19888 0 0
+At STD N 00E0FFFF
+Ne 7 "Net-(C3-Pad1)"
+Po 1.69926 -2.10058
+$EndPAD
+$SHAPE3D
+Na "TO220-5_Pentawatt_Wings3d_RevA_24Oct2012/TO220-5_TO5B_Pentawatt_Horizontal_Staggered_RevA_Faktor03937_24Oct2012.wrl"
+Sc 0.3937 0.3937 0.3937
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE Pentawatt_Neutral_Staggered-Typ1_Horizontal_TO220-5-TA05B
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

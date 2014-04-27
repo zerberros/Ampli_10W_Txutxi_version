@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-09 BZR 4740)-product date = dom 27 abr 2014 13:19:28 CEST
+
+BeginCmp
+TimeStamp = /535AC7D3;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = Capacitors:CP_5x11mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /535AC8DD;
+Reference = C2;
+ValeurCmp = 470uF;
+IdModule  = Capacitors:CP_8x21mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /535ACA21;
+Reference = C3;
+ValeurCmp = 1000uF;
+IdModule  = Capacitors:CP_13x21mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /535ACB15;
+Reference = CONN_01;
+ValeurCmp = Audio_In;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /535B38B5;
+Reference = CONN_02;
+ValeurCmp = Vcc;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /535ACAC6;
+Reference = CONN_03;
+ValeurCmp = Carga 4-8 ohm;
+IdModule  = Connect:bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /535AC93B;
+Reference = R1;
+ValeurCmp = 220;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /535AC980;
+Reference = R2;
+ValeurCmp = 2.2;
+IdModule  = Discret:R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /535AC30F;
+Reference = U1;
+ValeurCmp = TDA2003V;
+IdModule  = Pentawatts:Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D;
+EndCmp
+
+EndListe
