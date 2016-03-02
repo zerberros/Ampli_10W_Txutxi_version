@@ -1,4 +1,4 @@
-update=dom 27 abr 2014 13:14:45 CEST
+update=mié 17 feb 2016 18:25:18 CET
 version=1
 last_client=kicad
 [eeschema]
@@ -66,24 +66,32 @@ LibName30=valves
 LibName31=TDA2003
 LibName32=TDA2003H
 LibName33=TDA2003V
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
-BoardThickness=630
-TxtPcbV=800
-TxtPcbH=600
-TxtModV=600
-TxtModH=600
-TxtModW=120
-VEgarde=100
-DrawLar=150
-EdgeLar=150
-TxtLar=120
-MSegLar=150
-LastNetListRead=
+LastNetListRead=Ampli_10W_Txutxi_version.net
+UseCmpFile=0
+PadDrill="    0,600000"
+PadDrillOvalY="    0,600000"
+PadSizeH="    1,400000"
+PadSizeV="    1,400000"
+PcbTextSizeV="    1,500000"
+PcbTextSizeH="    1,500000"
+PcbTextThickness="    0,300000"
+ModuleTextSizeV="    1,500000"
+ModuleTextSizeH="    1,500000"
+ModuleTextSizeThickness="    0,150000"
+SolderMaskClearance="    0,200000"
+SolderMaskMinWidth="    0,000000"
+DrawSegmentWidth="    0,200000"
+BoardOutlineThickness="    0,150000"
+ModuleOutlineThickness="    0,150000"
 [pcbnew/libraries]
+LibDir=/home/backup/kicad_library/mod2/mod2/converted
 LibName1=1wire
 LibName2=sockets
 LibName3=connect
@@ -96,11 +104,15 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=pga_sockets
 LibName12=valves
-LibDir=/home/backup/kicad_library/mod2/mod2/converted
-[cvpcb]
+[schematic_editor]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1

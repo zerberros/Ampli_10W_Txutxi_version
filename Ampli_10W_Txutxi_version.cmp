@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-09 BZR 4740)-product date = dom 27 abr 2014 13:19:28 CEST
+Cmp-Mod V01 Created by Cvpcb 0.201506062246+5717~23~ubuntu14.04.1-product   date = dom 07 jun 2015 21:38:46 CEST
+
+BeginCmp
+TimeStamp = /55748CCB;
+Reference = 100k1;
+ValeurCmp = POT;
+IdModule  = Potentiometers:Potentiometer_Alps-RK16-single;
+EndCmp
 
 BeginCmp
 TimeStamp = /535AC7D3;
@@ -23,21 +30,21 @@ EndCmp
 
 BeginCmp
 TimeStamp = /535ACB15;
-Reference = CONN_01;
+Reference = CONN_1;
 ValeurCmp = Audio_In;
 IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /535B38B5;
-Reference = CONN_02;
+Reference = CONN_2;
 ValeurCmp = Vcc;
 IdModule  = Connect:bornier2;
 EndCmp
 
 BeginCmp
 TimeStamp = /535ACAC6;
-Reference = CONN_03;
+Reference = CONN_3;
 ValeurCmp = Carga 4-8 ohm;
 IdModule  = Connect:bornier2;
 EndCmp
